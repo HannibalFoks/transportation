@@ -11,12 +11,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap"
           rel="stylesheet">
     <script src="https://use.fontawesome.com/4b2b3c4e4b.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 
     <title>Document</title>
 </head>
 <body>
 <main class="main-box">
     <section class="header flex-group_column">
+
         <div class="header__item1">
             <div class="header__item1__elems flex-group_sp-btvn">
                 <div class="header__item1__lang flex-group_sp-btvn">
@@ -43,6 +45,22 @@
             </div>
         </div>
         <div class="header__item2 flex-group_sp-btvn">
+
+            <div class="mobile-navigaror">
+                <div class="menu-burger__header">
+                    <span></span>
+                </div>
+                <nav class="header__nav">
+                    <ul class="menu header__menu">
+                        <li><a href="#provide" class="menu__item">Услуги</a></li>
+                        <li><a href="#" class="menu__item">О компании</a></li>
+                        <li><a href="#" class="menu__item">Каталог</a></li>
+                        <li><a href="#" class="menu__item">Сервис</a></li>
+                        <li><a href="#" class="menu__item">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+
             <div class="header__item2__elem1 flex-group_sp-btvn">
                 <div class="header__item2__logo flex-group_sp-btvn">
                     <div class="logo__imag">
@@ -71,8 +89,8 @@
                 </div>
             </div>
             <div class="header__item2__elem2">
-                <ul class="header__menu">
-                    <li class="header__menu__li _style-text-m"><a href="#">услуги</a></li>
+                <ul class="header__menu-glav">
+                    <li class="header__menu__li _style-text-m"><a href="#provide">услуги</a></li>
                     <li class="header__menu__li _style-text-m"><a href="#">О компании</a></li>
                     <li class="header__menu__li _style-text-m"><a href="#">вакансии</a></li>
                     <li class="header__menu__li _style-text-m"><a href="#">контакты</a></li>
@@ -274,6 +292,7 @@
             <div class="footer__item _style-text-m _style-text-black">Разработано - D-E-N.ru</div>
         </div>
     </footer>
+    <script type="text/javascript" src="page/dop.js"></script>
 </main>
 </body>
 </html>
