@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap"
           rel="stylesheet">
+    <script src="https://use.fontawesome.com/4b2b3c4e4b.js"></script>
 
     <title>Document</title>
 </head>
@@ -31,12 +32,12 @@
                 </div>
                 <div class="header__item1__phone header__elem">
                     <a href="#" class="header__item1__phone__a">
-                        8 (800) 123-45-67
+                        8 (800) 000-00-00
                     </a>
                 </div>
                 <div class="header__item1__mail header__elem">
                     <a href="#" class="header__item1__mail__a">
-                        sales@log.ru
+                        thismail@log.ru
                     </a>
                 </div>
             </div>
@@ -62,10 +63,10 @@
                 </div>
                 <div class="header__item2__orientation">
                     <a href="#" class="orientation__a">
-                        <div class="orientation__icon"></div>
-                        <span class="orientation_text _style-text-m">
+                        <div class="orientation_text _style-text-m">
+                            <i class="fa fa-map-marker orientation__icon" aria-hidden="true"></i>
                             Наши офисы
-                        </span>
+                        </div>
                     </a>
                 </div>
             </div>
@@ -159,8 +160,7 @@
                         <span class="_style-text-l">Авиаперевозки</span>
                     </div>
                 </a>
-            </div>
-            <div class="provide__stripe flex-group_sp-btvn">
+
                 <a href="#">
                     <div class="provide__elem flex-group_column">
                     <img src="imag/Vector.png" alt="">
@@ -188,6 +188,92 @@
             </div>
         </div>
     </section>
+    <section id="about-company" class="section-size _style-text-xm">
+        <div class="fon3"></div>
+        <div class="flex-group_sp-btvn about-company">
+            <div class="about-company__infoBlock flex-group_column">
+                <div class="services_item1__elem1"></div>
+                <div class="services_item1__elem2">
+                    О компании
+                </div>
+                <div class="about-company__loremText">
+                    Lorem Ipsum - это текст-"рыба", часто используемый
+                    в печати и вэб-дизайне. Lorem Ipsum является стандартной
+                    "рыбой" для текстов на латинице с начала XVI века.
+                    В то время некий безымянный печатник создал большую коллекцию
+                    размеров и форм шрифтов, используя Lorem Ipsum для распечатки
+                    образцов. Lorem Ipsum не только успешно пережил без заметных изменений
+                    пять веков, но и перешагнул в электронный дизайн.
+                </div>
+            </div>
+            <div class="about-company__clipArt">
+                <div class="about-company__clipArt__stripe flex-group_sp-btvn">
+                    <div class="clipArt__stripe__elem flex-group_column">
+                        <p class="clipArt__stripe__elem1">48</p>
+                        <p class="clipArt__stripe__elem2">офисов</p>
+                        <p class="clipArt__stripe__elem3">В Европе и СНГ</p>
+                    </div>
+                    <div class="clipArt__stripe__elem">
+                        <p class="clipArt__stripe__elem1">361</p>
+                        <p class="clipArt__stripe__elem2">грузовиков</p>
+                        <p class="clipArt__stripe__elem3">Volvo, Scania</p>
+                    </div>
+                    <div class="clipArt__stripe__elem other-color">
+                        <img src="imag/mini-truck.png" alt="">
+                    </div>
+                    <div class="clipArt__stripe__elem other-color">
+                        <img src="imag/mini-truck.png" alt="">
+                    </div>
+                    <div class="clipArt__stripe__elem">
+                        <p class="clipArt__stripe__elem1">1500</p>
+                        <p class="clipArt__stripe__elem2">сотрудников</p>
+                        <p class="clipArt__stripe__elem3">профессионалов</p>
+                    </div>
+                    <div class="clipArt__stripe__elem other-color"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="map" class="section-map">
+        <div style="position:relative;overflow:hidden;">
+            <a href="https://yandex.ru/maps/org/aleksandrovskaya_kolonna/95488213939/?utm_medium=mapframe&utm_source=maps"
+                                                           style="color:#eee;font-size:12px;position:absolute;top:0;">Александровская колонна</a>
+            <a href="https://yandex.ru/maps/2/saint-petersburg/category/monument_memorial/137236877779/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Памятник, мемориал в Санкт‑Петербурге</a>
+            <iframe class="mapBox" src="https://yandex.ru/map-widget/v1/-/CCUIjRU5hB" style="position:relative;"></iframe>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footerBox flex-group_sp-btvn">
+            <div class="footer__item1 flex-group_sp-btvn">
+                <div class="header__item2__logo flex-group_sp-btvn">
+                    <div class="logo__imag">
+                        <a href="#">
+                            <img src="imag/logo2.png" alt="">
+                        </a>
+                    </div>
+                    <div class="logo__text">
+                        <a href="#" class="logo__text_a">
+                            <p class="logo__text_elem1">
+                                company
+                            </p>
+                            <p class="logo__text_elem2">
+                                tagline goes here
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__item__address">
+                    <p class="_style-text-m">123456, Санкт-Петербург, Невский пр-кт 127</p>
+                    <a href="#" class="footer__item__mail _style-text-m">thismail.ru</a>
+                </div>
+            </div>
+            <div class="footer__item">
+                <p class="footer__item__phone _style-text-m ">+7 (812) 000-00-00</p>
+                <p class="footer__item__phone _style-text-m ">+7 (812) 000-00-00</p>
+            </div>
+            <div class="footer__item _style-text-m _style-text-black">Разработано - D-E-N.ru</div>
+        </div>
+    </footer>
 </main>
 </body>
 </html>
